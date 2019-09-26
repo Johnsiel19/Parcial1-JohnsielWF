@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using Entidades;
 
 namespace DAL
 {
@@ -11,10 +12,7 @@ namespace DAL
     {
 
 
-       // public DbSet<Pagos> Pagos { get; set; }
-
-
-
+        public DbSet<Evaluacion> Evaluacion { get; set; }
         public Contexto() : base("ConStr")
         { }
 

@@ -11,7 +11,7 @@ namespace Parcial1_JohnsielWF.Registros
 {
 
 
-    public partial class rProductos
+    public partial class WebForm1
     {
     }
 }
